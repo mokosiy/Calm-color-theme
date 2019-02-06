@@ -1,0 +1,21 @@
+{
+    "name": "calm-color-theme",
+    "displayName": "Calm Color Theme",
+    "description": "",
+    "version": "1.1.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Calm Color Theme",
+                "uiTheme": "vs",
+                "path": "./themes/Calm Color Theme-color-theme.json"
+            }
+        ]
+    }
+}
