@@ -1,4 +1,4 @@
-# Calm color theme
+# Calm color theme <img src="https://github.com/mokosiy/Calm-color-theme/blob/master/Logo.svg"> 
 
 Features:
 
