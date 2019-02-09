@@ -58,8 +58,8 @@
         {
             "name": "Keywords",
             "scope": [
-                "keyword",
-                "storage"
+				"keyword",
+                "storage.type"				
             ],
             "settings": {
                 "foreground": "#008080",
@@ -69,7 +69,6 @@
         {
             "name": "Types",
             "scope": [
-                "storage.type",
                 "support.type"
             ],
             "settings": {
@@ -111,7 +110,6 @@
         {
             "name": "Classes",
             "scope": [
-                "entity.name.type",
                 "entity.other.inherited-class",
                 "support.class"
             ],
