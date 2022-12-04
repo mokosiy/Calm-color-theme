@@ -59,7 +59,7 @@
             "name": "Keywords",
             "scope": [
 				"keyword",
-                "storage.type"				
+                "storage"
             ],
             "settings": {
                 "foreground": "#008080",
@@ -69,7 +69,8 @@
         {
             "name": "Types",
             "scope": [
-                "support.type"
+                "support.type",
+                "storage.type"
             ],
             "settings": {
                 "foreground": "#000080",
@@ -81,7 +82,8 @@
             "scope": [
                 "constant.language",
                 "support.constant",
-                "variable.language"
+                "variable.language",
+                "variable.other.constant"
             ],
             "settings": {
                 "foreground": "#800080"
@@ -98,21 +100,15 @@
             }
         },
         {
-            "name": "Functions",
-            "scope": [
-                "entity.name.function",
-                "support.function"
-            ],
-            "settings": {
-                "foreground": "#000000"
-            }
-        },
+			"name": "Functions",
+			"scope": "entity.name.function, support.function",
+			"settings": {
+				"foreground": "#000080"
+			}
+		},
         {
             "name": "Classes",
-            "scope": [
-                "entity.other.inherited-class",
-                "support.class"
-            ],
+            "scope": "entity.name.type, entity.other.inherited-class, support.class",
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#000080"
@@ -196,9 +192,19 @@
             "name": "HTML: Tags",
             "scope": [
                 "meta.tag",
+                "entity.name.tag",
+                "meta.tag.other.html",
+                "meta.tag.other.js",
+                "meta.tag.other.tsx",
+                "entity.name.tag.tsx",
+                "entity.name.tag.js",
+                "entity.name.tag",
+                "meta.tag.js",
+                "meta.tag.tsx",
+                "meta.tag.html",
                 "punctuation.definition.tag.html",
                 "punctuation.definition.tag.begin.html",
-                "punctuation.definition.tag.end.html"
+                "punctuation.definition.tag.end.html",
             ],
             "settings": {
                 "foreground": "#008080"
