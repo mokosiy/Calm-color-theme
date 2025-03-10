@@ -2,10 +2,10 @@
 
 Features:
 
-Calm background and foreground colors give high focus retention and reduce strain on eyes.
+- Calm background and foreground colors give high focus retention and reduce strain on eyes.
 
-Quantity of different colors and differences between them is moderate. 
+- Quantity of different colors and differences between them is moderate. 
 
-Bold fonts to shift attention focus to the most important elements.
+- Bold fonts to shift attention focus to the most important elements.
 
-Comments are marked out with blue background. It is to stress that comments should appear rarely in your code yet in significant places.
+- Comments are marked out with blue background. It is to stress that comments should appear rarely in your code yet in significant places.
