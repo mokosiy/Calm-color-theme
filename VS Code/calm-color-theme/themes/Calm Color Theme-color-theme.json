@@ -211,6 +211,13 @@
             }
         },
         {
+            "name": "HTML: Text Content",
+            "scope": "text.html",
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
             "name": "HTML: Tag Names",
             "scope": "entity.name.tag",
             "settings": {
